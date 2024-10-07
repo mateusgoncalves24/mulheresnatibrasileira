@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroinas da TI Brasileira</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#biografias">Biografias</a></li>
+
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 >Mulheres Brasileiras na Tecnologia</h1>
+        <p class="intro">
+            Para comprender a importância da mulher na tecnologia no Brasil, é essencial delver nas contribuições e desafios enfrentados por elas nesse setor. As mulheres têm desempenhado um papel fundamental na inovação, trazendo perspectivas únicas e soluções criativas. Apesar das barreiras de gênero, cada vez mais profissionais femininas estão se destacando em areás como programação, design e gestão de projetos. A inclusão das mulheres na tecnologianão apenas enriquece o ambiente de trabalho , mas também promove diversidade, que é crucial para o desenvolvimento de produtos mais abrangentes e eficazes. O empoderamento feminino neste campo é, portantanto, um passo vital rumo a uma sociedade mais equitativa e tecnologica
+        </p>
+
+        <!-- seção sobre as mulheres -->
+         <section id="biografias">
+            <h2>Biografias de Mulheres na tecnologia</h2>
+            <article>
+                <h3>1. Ada Lemos</h3>
+                <p>Ada lemos foi uma das pioneiras internet no Brasil, responsável pela introdução da intenert comercial no país</p>
+            </article>
+
+            <article>
+                <h3>2. Cristina de Castro Lobo</h3>
+                <p>Cristina de Castro lobo é professora e pesquisadora em segurança da informação, e uma das principais figuras femininas na area de criptografia no Brasil </p>
+            </article>
+
+            <article>
+                <h3>3. Bertha Becker</h3>
+                <p>Bertha Becker foi uma importante geógrafa brasileira, pioneira na utilização de sistemas de informação geográfica (SIG) no Brasil</p>
+            </article>
+
+            <article>
+                <h3>4. Fernada Weiden</h3>
+                <p>Fernanda Weiden é uma engenheira de software que trabalhou no desenvolvimento de software livre, incluindo colabhorações com o Linux e outras grandes</p>
+            </article>
+         </section>
+
+         <section id="tabela">
+            <h2 class="titulo-tabela">comparação em areas de atuação</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Área</th>
+                        <th>Contribuições</th>
+                     </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ada Lemos</td>
+                        <td>Internet e Redes</td>
+                        <td>Pioneira na internet comercial</td>
+                    </tr>
+                    <tr>
+                        <td>Cristina de Castro Lobo</td>
+                        <td>Segurança e Informação</td>
+                        <td>Pioneira em criptografia e segurança</td>
+                    </tr>
+                    <tr>
+                        <td>Bertha Becker</td>
+                        <td>Geografia e SIG</td>
+                        <td>Utilização de SIG no Brasil</td>
+                    </tr>
+                    <tr>
+                        <td>Fernanda Weiden</td>
+                        <td>Engenharia de Software</td>
+                        <td>Trabalho em software livre e Linux</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+
+         <!-- Galeria de imagens -->
+          <h2>Galeria</h2>
+          <section id="galeria">
+                    
+            <figure class="foto1">
+                <img src="https://placehold.co/600x400" alt="Ada Lemos" height="150px">
+                <figcaption>Ada Lemos</figcaption>
+            </figure>
+            <figure class="foto2">
+                <img src="https://placehold.co/600x400" alt="Cristina de Castro Lobo" height="150px">
+                <figcaption> Cristina de Castro</figcaption>
+            </figure>
+            <figure class="foto3">
+                <img src="https://placehold.co/600x400" alt="Berta Becker" height="150px">
+                <figcaption>Berta Becker</figcaption>
+            </figure>
+            <figure class="foto4">
+                <img src="https://placehold.co/600x400" alt="Cristina de Castro Lobo" height="150px">
+                <figcaption></figcaption>
+            </figure>
+           
+            </figure>
+          </section>
+          
+          
+
+
+        <section id="contato">
+            <h2 titulo-contato>Entre em contato</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email"> E-mail:</label>
+                    <input type="text" id="email" name="email" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                    <button class="botao-enviar" type="submit">Enviar</button>
+                </form>
+         </section>
+    </main>
+    <footer>
+        <p>Feito com muito amor por: Mateus Gonçalves</p>
+        <p>&copy; 2024 Mulheres Brasileiras na Tecnologia</p>
+    </footer>
+    
+</body>
+</html>
